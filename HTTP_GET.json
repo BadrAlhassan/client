@@ -67,9 +67,11 @@
     "SETTING_UP_VARIABLES": {
       "entry": [
         {
+          "params": {},
           "type": "call (SETTING_UP_VARIABLES) (event pkt queue)"
         },
         {
+          "params": {},
           "type": "done"
         }
       ],
@@ -78,9 +80,11 @@
           "target": "end",
           "actions": [
             {
+              "params": {},
               "type": "assign (pkt) (pkt)"
             },
             {
+              "params": {},
               "type": "assign (queue) (queue)"
             }
           ]
